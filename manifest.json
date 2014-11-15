@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Slack RTL",
+  "version": "1.0",
+  "description": "RTL support for Slack",
+  "icons" : { "128": "icon.png" }, 
+  "author": "Mehdi Behrooz <mehdi.behrooz@gmail.com>",
+
+  "page_action": {
+    "default_title": "Slack RTL"
+  },
+ 
+  "content_scripts": [{
+    "matches": ["*://*.slack.com/*"],
+    "css": ["rtl.css"],
+    "js": ["rtl.js"],
+    "all_frames": true
+  }]
+
+}
+

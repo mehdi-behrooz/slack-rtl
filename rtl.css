@@ -1,0 +1,46 @@
+.msgs_holder {
+  padding: 0 40px 1rem 1.5rem;
+}
+
+.message {
+  padding: .25rem 4rem .1rem 2rem !important;
+  direction: rtl;
+}
+
+.msg_actions {
+  left: 0;
+  right: auto !important;
+}
+
+.member_image {
+  right: 1rem;
+  top: 6px !important;
+}
+
+.timestamp {
+  right: 0 !important;
+  left: auto !important;
+}
+
+.message .message_star_holder {
+  right: 22px !important;
+  left: auto !important;
+}
+
+.show_user .message_star_holder {
+  right: 0 !important;
+  left: auto !important;
+}
+
+#channel_members_toggle, #channel_members {
+  left: 225px;
+}
+
+.internal_member_link {
+  display: inline-block !important;
+  direction: ltr;
+}
+
+.message.show_user {
+  margin-top: 14px !important;
+}
